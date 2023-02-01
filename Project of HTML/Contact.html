@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="External1.css">
+	<style>
+        form {
+            text-align: center;
+               margin: 0 auto;
+               width: 600px;
+           }
+           legend{
+   font-size:40px;
+margin-top:20px;
+color:rgb(252, 253, 253);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+text-decoration: black;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 700;
+font-display:inherit;
+font-size: larger;
+}
+input[type="text"]{
+width:50%;
+border-radius: 30px;
+margin-top:5px;
+margin-bottom:10px;
+padding:10px;
+border:3px solid #000000
+}
+input{
+width:50%;
+border-radius: 30px;
+margin-top:5px;
+margin-bottom:10px;
+padding:10px;
+border:3px solid #000000
+}
+input{
+
+
+color:rgb(22, 1, 1);
+background-color:#fff;
+}
+
+input[type="text"]:focus{
+width:100%;
+transition: all 0.9s ease-in;
+border-radius: 30px;
+margin-top:5px;
+margin-bottom:10px;
+padding:10px;
+border:3px solid #000000
+}
+input[type="submit"]{
+width:20%;
+border-radius: 7px;
+padding:15px 25px;
+background-color:#3d3d3d;
+border:rgb(0, 0, 0);
+color:#fff;
+padding: 27px;
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+font-family:cursive;
+text-align: center;
+transition: all 0.6s ease-in;}
+input[type="submit"]:hover{
+width:20%;
+padding:20px;
+background-color:#b1ae25;
+border:none;
+color:#fff;
+font-size:18px;
+text-align: center;
+font-weight:700;
+cursor:pointer;
+font-family:cursive;
+}
+
+button{
+width:21%;
+border-radius: 6px;
+padding:10px 20px;
+background-color:#3d3d3d;
+border:rgb(0, 0, 0);
+color:#fff;
+padding: 20px;
+font-size:18px;
+font-weight:700;
+cursor:pointer;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+transition: all 0.6s ease-in;
+}
+button:hover{
+width:22%;
+padding:20px;
+background-color:#b1ae25;
+border:none;
+color:#fff;
+font-size:18px;
+text-align: center;
+font-weight:700;
+cursor:pointer;
+font-family:cursive;
+}
+
+   </style>
+
+</head>
+<body>
+
+<!----------Header Section------------->
+
+
+<div class="container">
+<div class="navbar">
+	
+<div>
+	<a href="Home.html"><img src="images/logo.png" width="125px"></a>		
+</div>
+
+<nav>
+<ul>
+	<li><a href="Home.html">Home</a></li>
+	<li><a href="Product.html">Products</a></li>
+	<li><a href="About.html">About</a></li>
+	<li><a href="Contact.html">Contact</a></li>
+</ul>
+</nav>
+<a href="Cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+</div>
+</div>
+</div>
+	<!-----------End Of Header Section--------------->
+ <!-- <div class="contact"> -->
+	<div class="r1">
+
+	<form id="form" action="" method="post">
+
+
+	<img src="images/logo.png" width="125px"><br>
+
+		<!-- Your Name:<input type="text" class="input-field" 
+		name="Your Name"><br>
+		Your Email:<input type="text" class="input-field" name="Your Email"><br>
+		Subject:<input type="text" class="input-field" name="Subject"><br>
+		<label>Your Message</label><textarea type="text" class="input-field"name="Your message">
+		</textarea>
+	<a href="" class="btn">Send &#8594;</a>
+	</form>
+</div> -->
+<p>  Your Name: 
+	<input id="fname" type="text" name="username" placeholder="name"> <label id="fnamelbl" ></label>			
+</p> <br> <br> 
+<p> Surname : 
+	<input id="Lname" type="text" name="username" placeholder="surname">	<label id="lnamelbl" ></label>		
+</p>	<br><br>
+<p> Location : 
+	<input id="address" type="text" name="address" placeholder="address"> <label id="addlbl" ></label> 
+</p>  <br><br>
+	<p>Contact: <input id="phonen" type="text" 
+		size="65" name="Telephone" placeholder="Enter Telephone.." /> <label id="phlbl" ></label> </p>		
+	</p>  <br><br>
+<p> Email Address : 
+	<input  id="email" type="text" name="email" placeholder="email">	<label id="emaillbl" ></label>			
+</p><br><br>
+<br>
+<br />
+<p id="errorMessage" class="error">					
+</p>	
+	
+</form>
+<p id="successMessage" class="success">					
+</p>
+	
+</div>
+<div style="position: relative;top: 5px;margin-left: 50%; padding-right: -2%;" class="p">
+<button style="text-align: center;"  onclick="info1()"  >Submit</button>
+</div>
+<br><br>
+</div>
+
+</body>
+<script src="formjava.js" ></script>
+</html>
